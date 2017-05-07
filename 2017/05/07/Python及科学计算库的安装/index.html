@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://yoursite.com/2017/05/07/Python及科学计算库的安装/index.html">
 <meta property="og:site_name" content="boyun">
 <meta property="og:description" content="1.安装 　　安装Python2.7: https://www.python.org/downloads/release/python-2712/ 根据电脑配置选择合适版本下载安装。 　　安装过Python之后，Python27\Scripts有pip.exe，在Python27\Scripts文件夹下运行cmd（点击Shift+右键），可以用pip安装其他包。  　　   安装科学计算库pip">
-<meta property="og:updated_time" content="2017-05-07T08:13:55.897Z">
+<meta property="og:updated_time" content="2017-05-07T08:18:45.928Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python及科学计算库的安装">
 <meta name="twitter:description" content="1.安装 　　安装Python2.7: https://www.python.org/downloads/release/python-2712/ 根据电脑配置选择合适版本下载安装。 　　安装过Python之后，Python27\Scripts有pip.exe，在Python27\Scripts文件夹下运行cmd（点击Shift+右键），可以用pip安装其他包。  　　   安装科学计算库pip">
@@ -93,8 +93,10 @@
 <li>安装科学计算库<br>pip install jupyter<br>pip install pandas<br>pip install numpy<br>pip install matplotlib<br>pip install seaborn<br>pip install scikit-learn </li>
 <li>用上述方式安装scipy不成功，可以这样：在<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/下载合适的whl包，pip" target="_blank" rel="external">http://www.lfd.uci.edu/~gohlke/pythonlibs/下载合适的whl包，pip</a> install &lt;拖入下载到的scipy包&gt;。安装后import scipy若提示缺少numpy+MKL，可以pip uninstall numpy，再下载numpy+MKL的whl包，pip install *.whl。<br>　　<br>　　检测安装是否成功，打开Python的shell，输入：<br>import matplotlib<br>import numpy<br>import scipy等，若不报错，就安装成功。<br>　　比如生成一个y=x的直线：</li>
 </ol>
-<p>import matplotlib.pyplot as plt<br>plt.plot([1,2,3])<br>plt.ylabel(‘some numbers’)<br>plt.show()<br>1<br>2<br>3<br>4<br>1<br>2<br>3<br>4<br>这里写图片描述</p>
-<p>　　测试scikit-learn安装成功与否，下载代码plot_ols.py，运行得到：<br>　　<br>　　这里写图片描述</p>
+<p>import matplotlib.pyplot as plt<br>plt.plot([1,2,3])<br>plt.ylabel(‘some numbers’)<br>plt.show()<br>1<br>2<br>3<br>4<br>1<br>2<br>3<br>4</p>
+<p>　　测试scikit-learn安装成功与否，下载代码plot_ols.py，运行得到： 
+　　 
+　　</p>
 <p>　　上述是我采用的安装方式，过程比较顺利，除了pip，还有其他的方式哈： </p>
 <ol>
 <li>用easy_install安装，但是这种方法卸载不方便，不推荐。 </li>
@@ -122,7 +124,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/05/07/Python及科学计算库的安装/" data-id="cj2ef9xdy0000pwp5x61shmee" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/05/07/Python及科学计算库的安装/" data-id="cj2efg9eb00000kp5r2fw3y6x" class="article-share-link">Share</a>
       
       
     </footer>
