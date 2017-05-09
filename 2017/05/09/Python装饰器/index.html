@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>boyun58</title>
+  <title>Python装饰器 | boyun58</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="python博客资源">
-<meta property="og:type" content="website">
-<meta property="og:title" content="boyun58">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="Python装饰器之property()详解 何为装饰器？  官方定义：装饰器是一个很著名的设计模式，经常被用于有切面需求的场景，较为经典的有插入日志、性能测试、事务处理等。装饰器是解决这类问题的绝佳设计，有了装饰器，我们就可以抽离出大量函数中与函数功能本身无关的雷同代码并继续重用。概括的讲，装饰器的作用就是为已经存在的对象添加额外的功能。 Python中总共包括三个内置装饰器： ① static">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python装饰器">
+<meta property="og:url" content="http://yoursite.com/2017/05/09/Python装饰器/index.html">
 <meta property="og:site_name" content="boyun58">
-<meta property="og:description" content="python博客资源">
+<meta property="og:description" content="Python装饰器之property()详解 何为装饰器？  官方定义：装饰器是一个很著名的设计模式，经常被用于有切面需求的场景，较为经典的有插入日志、性能测试、事务处理等。装饰器是解决这类问题的绝佳设计，有了装饰器，我们就可以抽离出大量函数中与函数功能本身无关的雷同代码并继续重用。概括的讲，装饰器的作用就是为已经存在的对象添加额外的功能。 Python中总共包括三个内置装饰器： ① static">
+<meta property="og:updated_time" content="2017-05-09T14:28:50.549Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="boyun58">
-<meta name="twitter:description" content="python博客资源">
+<meta name="twitter:title" content="Python装饰器">
+<meta name="twitter:description" content="Python装饰器之property()详解 何为装饰器？  官方定义：装饰器是一个很著名的设计模式，经常被用于有切面需求的场景，较为经典的有插入日志、性能测试、事务处理等。装饰器是解决这类问题的绝佳设计，有了装饰器，我们就可以抽离出大量函数中与函数功能本身无关的雷同代码并继续重用。概括的讲，装饰器的作用就是为已经存在的对象添加额外的功能。 Python中总共包括三个内置装饰器： ① static">
   
     <link rel="alternate" href="/atom.xml" title="boyun58" type="application/atom+xml">
   
@@ -62,9 +63,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Python装饰器" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Python装饰器" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/05/09/Python装饰器/" class="article-date">
   <time datetime="2017-05-09T14:15:29.000Z" itemprop="datePublished">2017-05-09</time>
@@ -77,8 +76,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/05/09/Python装饰器/">Python装饰器</a>
+    <h1 class="article-title" itemprop="name">
+      Python装饰器
     </h1>
   
 
@@ -119,170 +118,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-Python及科学计算库的安装" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/05/07/Python及科学计算库的安装/" class="article-date">
-  <time datetime="2017-05-07T08:11:59.000Z" itemprop="datePublished">2017-05-07</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/05/07/Python及科学计算库的安装/">Python及科学计算库的安装</a>
-    </h1>
+    <a href="/2017/05/07/Python及科学计算库的安装/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Python及科学计算库的安装</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>1.安装</p>
-<p>　　安装Python2.7: <a href="https://www.python.org/downloads/release/python-2712/" target="_blank" rel="external">https://www.python.org/downloads/release/python-2712/</a> 根据电脑配置选择合适版本下载安装。</p>
-<p>　　安装过Python之后，Python27\Scripts有pip.exe，在Python27\Scripts文件夹下运行cmd（点击Shift+右键），可以用pip安装其他包。 
-　　 </p>
-<ol>
-<li>安装科学计算库<br>pip install jupyter<br>pip install pandas<br>pip install numpy<br>pip install matplotlib<br>pip install seaborn<br>pip install scikit-learn </li>
-<li>用上述方式安装scipy不成功，可以这样：在<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/下载合适的whl包，pip" target="_blank" rel="external">http://www.lfd.uci.edu/~gohlke/pythonlibs/下载合适的whl包，pip</a> install &lt;拖入下载到的scipy包&gt;。安装后import scipy若提示缺少numpy+MKL，可以pip uninstall numpy，再下载numpy+MKL的whl包，pip install *.whl。<br>　　<br>　　检测安装是否成功，打开Python的shell，输入：<br>import matplotlib<br>import numpy<br>import scipy等，若不报错，就安装成功。<br>　　比如生成一个y=x的直线：</li>
-</ol>
-<p>import matplotlib.pyplot as plt<br>plt.plot([1,2,3])<br>plt.ylabel(‘some numbers’)<br>plt.show()<br>1<br>2<br>3<br>4<br>1<br>2<br>3<br>4</p>
-<p>　　测试scikit-learn安装成功与否，下载代码plot_ols.py，运行得到： 
-　　 
-　　</p>
-<p>　　上述是我采用的安装方式，过程比较顺利，除了pip，还有其他的方式哈： </p>
-<ol>
-<li>用easy_install安装，但是这种方法卸载不方便，不推荐。 </li>
-<li><p>用anaconda的conda命令，好像也很常用，因为conda会安装或者更新一些依赖库，但是pip未必。有兴趣的可以试试。</p>
-</li>
-<li><p>科学计算库的使用</p>
-</li>
-</ol>
-<p>综合： </p>
-<ol>
-<li>遇到Numpy陌生函数，查询用法 </li>
-<li>pandas教程及API<br>　　pandas读取csv文件，提供了大量能使我们快速便捷地处理数据的函数和方法。 </li>
-<li>Matplotlib Tutorial(译)<br>　　是python最著名的绘图库,它提供了一整套和matlab相似的命令API,十分适合交互式地进行制图。</li>
-</ol>
-<p>数据可视化： </p>
-<ol>
-<li>Seaborn tutorial<br>　　Seaborn模块自带许多定制的主题和高级的接口，来控制matplotlib图表的外观。<br>机器算法： </li>
-<li><p>scikit-learn<br>　　scikit-learn的基本功能主要被分为六个部分，分类，回归，聚类，数据降维，模型选择，数据预处理，机器学习模型非常丰富，包括SVM，决策树，GBDT，KNN等等，可以根据问题的类型选择合适的模型，具体可以参考官方网站上的文档。</p>
-</li>
-<li><p>python教程</p>
-</li>
-</ol>
-<p>python基础语法教程：<a href="http://www.runoob.com/python/python-tutorial.html" target="_blank" rel="external">http://www.runoob.com/python/python-tutorial.html</a><br>用python做科学计算：<a href="http://old.sebug.net/paper/books/scipydoc/install.html" target="_blank" rel="external">http://old.sebug.net/paper/books/scipydoc/install.html</a><br>jupyter的使用：<a href="https://ask.julyedu.com/question/7130" target="_blank" rel="external">https://ask.julyedu.com/question/7130</a><br>顶<br>0<br>踩</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/05/07/Python及科学计算库的安装/" data-id="cj2hnkgia00004sp592thivf4" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/04/30/hello-world/" class="article-date">
-  <time datetime="2017-04-30T07:36:55.691Z" itemprop="datePublished">2017-04-30</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/30/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/04/30/hello-world/" data-id="cj2hnkgiv00014sp5w6pholdp" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-Windows下Python多版本共存" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/03/08/Windows下Python多版本共存/" class="article-date">
-  <time datetime="2017-03-08T13:44:45.000Z" itemprop="datePublished">2017-03-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/03/08/Windows下Python多版本共存/">Windows下Python多版本共存</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>0.0 因公司需要Python两个版本共存开发，一个2.7x用来处理空间数据，而另一个3.5x用来做算法应用。因此就必须在计算机中共存2.7x和3.5x版本的。这次解决共存后记录下来过程。<br><img src="/images/01.png" alt=""></p>
-<p>1.0 下载Python2.7x和Python3.6x版本</p>
-<p>2.0 安装Python2.7x和Python3.6x版本</p>
-<p>3.0 配置环境变量，分别添加如下至path路径（我的计算机是Windows10系统）<br><img src="/images/02.png" alt=""></p>
-<p>4.0 然后就可以在cmd中分别调用Python2.7和Python3.6</p>
-<p>5.1 使用pip安装科学栈如numpy、pandas等<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">python -m pip list 查看</div><div class="line">python -m pip install --upgrade pip 更新</div><div class="line">python -m pip install numpy 安装</div></pre></td></tr></table></figure></p>
-<p>5.2 为Python3.6版本安装科学栈</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">python3 -m pip list</div><div class="line">python3 -m pip install --upgrade pip</div><div class="line">python3 -m pip install numpy</div></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/08/Windows下Python多版本共存/" data-id="cj2hnkgiv00034sp5drwivohb" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
